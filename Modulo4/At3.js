@@ -1,4 +1,4 @@
-/**
+/*
  Crie um array chamado almoxarifado. Cada elemento do array deve ser um objeto representando um item com as 
 propriedades ferramenta (objeto com nome e categoria) e quantidadeEmEstoque (número). 
 ● 1. Insira pelo menos 2 ferramentas distintas no array. 

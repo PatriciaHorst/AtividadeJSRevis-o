@@ -1,4 +1,5 @@
-/*Crie um objeto chamado tornoCNC com as propriedades id, modelo e horasTrabalhadas.
+/*
+Crie um objeto chamado tornoCNC com as propriedades id, modelo e horasTrabalhadas.
  Realize as seguintes 
 etapas: 
 ● 1. Acesse e imprima a propriedade modelo. 

@@ -1,4 +1,5 @@
-/*Crie uma função chamada calcularTemperaturaMedia que recebe um array com as medições de temperatura
+/*
+Crie uma função chamada calcularTemperaturaMedia que recebe um array com as medições de temperatura
 (em °C) de um forno industrial de fundição e retorna a temperatura média do lote de produção.
  */
 

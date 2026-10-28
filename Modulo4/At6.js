@@ -8,23 +8,26 @@ const maquina ={
     nome:"CNC",
     historicoManutencao:[
         {
-        data:"2026-09-25",
+        data:new Date("2026-09-25"),
         tecnico:"Bernando",
         tipo:"Manutenção Preventiva",
         },
         {
-        data:"2026-02-17",
+        data:new Date("2026-02-17"),
         tecnico:"Julia",
         tipo:"Limpeza",
         },
         {
-        data:"2026-10-31",
+        data:new Date("2026-10-31"),
         tecnico:"Marylia",
         tipo:"Checagem pré-utilização",
         }
     ]
 }
 
-//const listaOrdenação = maquina.historicoManutencao.sort((a,b)=> a.data -b.data);
+const ordencao = [...maquina.historicoManutencao].sort((a,b)=> a.data - b.data);
 
-//console.log("A data mais antiga é: "+listaOrdenação[0]);
+const ultimos = ordencao.at(-1);
+
+console.log("A data da ultima manuteção: "+ultimos.data.toLocaleDateString("pt-BR", { timeZone : "UTC"}));
+console.log("O tecnico responsavel: "+ultimos.tecnico);
