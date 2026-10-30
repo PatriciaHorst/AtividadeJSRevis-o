@@ -4,16 +4,14 @@ calcule o tempo de funcionamento (2026 - anoInstalacao) e retorne a frase: 'O ge
 [anos] anos.' utilizando a palavra-chave this. 
 */
 
-/* 
+ 
 const gerador ={
     id:12345,
     anoInstalacao: 2009,
     calcularAnosEmUso:function(){
-        anoInstalacaoNovo = 2026 - anoInstalacao;
+        anoInstalacaoNovo = 2026 - gerador.anoInstalacao;
         return 'O gerador '+this.id +' está em operação há ' +anoInstalacaoNovo+' anos.';
     }
 }
 
-console.log(gerador.calcularAnosEmUso);
-
-*/
+console.log(gerador.calcularAnosEmUso());

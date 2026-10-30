@@ -1,0 +1,5 @@
+/*
+Dado o objeto medidorVazao abaixo, utilize o laço for...in para percorrer e imprimir todas as chaves e valores no 
+formato 'chave: valor': 
+*/
+

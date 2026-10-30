@@ -1,0 +1,8 @@
+/*
+Crie um campo <input type='text' id='filtroModulo'> e uma lista com os setores fabris ('Usinagem', 'Caldeiraria', 
+'Pintura', 'Montagem Final'). Conforme o usuário digita no campo, utilize a manipulação do DOM para ocultar 
+(display: none) os setores que não correspondem ao texto digitado. 
+*/
+
+const list = document.querySelector("#lista")
+

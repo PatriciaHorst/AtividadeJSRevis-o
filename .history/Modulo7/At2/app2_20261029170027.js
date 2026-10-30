@@ -1,0 +1,13 @@
+/*
+Crie uma interface web com um cabeçalho <h2 id='contador'>0</h2> e um botão <button id='btnProduzir'>
+Registrar Peça</button>. Crie um script JavaScript que incremente o valor exibido no contador em +1 a cada clique no botão. 
+*/
+
+const botao = document.getElementById("btnProduzir");
+const display = document.getElementById("contador")
+let conta = 0;
+
+botao.addEventListener("click", () =>{
+    contador++;
+    display.textContent = contador;
+})
